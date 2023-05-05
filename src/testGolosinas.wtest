@@ -1,6 +1,12 @@
+import golosinas.*
 
-test "testX" {
+describe "test de chocolatin"{
+	
+	test "chocolatin con peso inicial de 100 vale 50" {
 
-	assert.that(true)
+	chocolatin.peso(100)
+	assert.equals(50, chocolatin.precio())
 
+ }
+	
 }
